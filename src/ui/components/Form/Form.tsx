@@ -1,10 +1,10 @@
 import React from 'react'
-import Button from '../Button/button'
+import Button from '../Button/Button'
 
 function Form() {
   return (
-    <form>
-      <div>
+    <form className="novaTarefa">
+      <div className="inputContainer">
         <label htmlFor="task">Add a study</label>
         <input
           type="text"
@@ -14,7 +14,7 @@ function Form() {
           required
         />
       </div>
-      <div>
+      <div className="inputContainer">
         <label htmlFor="time">Time</label>
         <input
           type="time"

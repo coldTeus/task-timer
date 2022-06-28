@@ -1,7 +1,9 @@
 import React from 'react'
 
 function Button() {
-  return <button>Button</button>
+  return (
+  <button className="botao">Button</button>
+  )
 }
 
 export default Button
